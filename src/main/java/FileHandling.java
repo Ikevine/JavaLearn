@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-
+//this is the class so I need to create object in main inorder to get data
 public class FileHandling {
     //I'm going to have method for creating , writing into and deleting the file
     //creating file and feedback
@@ -17,6 +17,7 @@ public class FileHandling {
             }
             else{
                 System.out.println("New file already existed");
+                System.out.println(file.getAbsolutePath() + " This is my location");
             }
 
         }
@@ -29,10 +30,22 @@ public class FileHandling {
 
     public void writeFile(){
         try{
-            FileWriter writes = new FileWriter("name.txt");
-            writes.write("Hellow my names are Kevine");
+//          The argument true is for appending if you want override you can omit it or write false
+            FileWriter writes = new FileWriter("name.txt", true);
+
+            //writing row data
+//            writes.write("Hellow my names are Kevine");
+//            writes.close();
+//            System.out.println("Data is written");
+
+            //pop user to inter the data
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter what you feels");
+            /*reading the next line*/
+            String input = scanner.nextLine();
+            writes.write(input);
             writes.close();
-            System.out.println("Data is written");
+
         }
         catch (IOException e){
             e.printStackTrace();
