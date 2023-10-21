@@ -11,5 +11,8 @@ public class Main {
         collectionFramework.map();
 
 
+        //Generics
+        Generics<Integer> number =new Generics(23, 20);
+        number.toString();
     }
 }
