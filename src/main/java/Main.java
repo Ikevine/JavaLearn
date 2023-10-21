@@ -8,6 +8,8 @@ public class Main {
 
        //collection handling
         CollectionFramework collectionFramework = new CollectionFramework();
-        collectionFramework.LinkedList();
+        collectionFramework.map();
+
+
     }
 }

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc066144-58ff-49da-85dc-477d080ec999" name="Changes" comment="change from writting static to dynamic writting">
-      <change afterPath="$PROJECT_DIR$/Sdata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionFramework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Deserialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SerializationL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CollectionFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CollectionFramework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Deserialization">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Deserialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Deserialization" />
       <module name="LearnJava" />
@@ -68,8 +64,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Deserialization" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Deserialization" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +79,7 @@
       <updated>1697781297325</updated>
       <workItem from="1697781298693" duration="1552000" />
       <workItem from="1697783066292" duration="11953000" />
-      <workItem from="1697867738194" duration="3511000" />
+      <workItem from="1697867738194" duration="5052000" />
     </task>
     <servers />
   </component>
